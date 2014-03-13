@@ -1,19 +1,15 @@
 # SUIT utilities: space
 
-A SUIT collection of utility classes for low-level CSS spacing traits.
+A fork of the deprecated [suit-utils-space](https://github.com/suitcss/utils-space) package. This version just makes
+use of the zero classes which are still useful in many cases.
 
 Read more about [SUIT's design principles](https://github.com/necolas/suit/).
 
-## Installation
-
-* [Bower](http://bower.io/): `bower install --save suit-utils-space`
-* Download: [zip](https://github.com/necolas/suit-utils-space/zipball/master)
-* Git: `git clone https://github.com/necolas/suit-utils-space.git`
-
 ## Available classes
 
-* `u-margin<D><s>` - Margin of size `s` in the direction `D`.
-* `u-padding<D><s>` - Padding of size `s` in direction `D`.
+* `u-m<D>Z` - Margin zero in the direction `D`.
+* `u-p<D>Z` - Padding zero in the direction `D`.
+* `u-mAZ` - All directions zero on margin.
 
 Where direction (`D`) can be:
 
@@ -24,13 +20,6 @@ Where direction (`D`) can be:
 * `L` - left
 * `H` - horizontal
 * `V` - vertical
-
-And size (`s`) can be:
-
-* `n` - none
-* `s` - small
-* `m` - medium
-* `l` - large
 
 ## Usage
 

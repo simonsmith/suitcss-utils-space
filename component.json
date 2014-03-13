@@ -1,8 +1,0 @@
-{
-    "name": "utils-space",
-    "repo": "suitcss/utils-space",
-    "version": "0.1.2",
-    "styles": ["space.css"],
-    "author": "Nicolas Gallagher",
-    "license": "MIT"
-}
