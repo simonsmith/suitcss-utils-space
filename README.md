@@ -14,10 +14,10 @@ Read more about [SUIT's design principles](https://github.com/necolas/suit/).
 Where direction (`D`) can be:
 
 * `A` - all
-* `T` - top
-* `R` - right
-* `B` - bottom
-* `L` - left
+* `t` - top
+* `r` - right
+* `b` - bottom
+* `l` - left
 * `H` - horizontal
 * `V` - vertical
 
